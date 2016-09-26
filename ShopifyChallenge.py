@@ -20,12 +20,12 @@ while True:
     # Look for the product_type of watch and clock and add their pricing onto the grand_total
     for product in d_info["products"]:
     # Check for product being part of clock or watch
-        if product["product_type"].lower() == "clock" or product["product_type"].lower() == "watch":
+        if product["product_type"] == "Clock" or product["product_type"] == "Watch":
     # Checking through the API references for product listing, price of within each product branch is split into product property of variants
             for variant in product["variants"]:
                 grand_total += float(variant["price"])
     # increase the page
     page += 1
 
-print "The grand total of all the gizmos are: ",grand_total
+print "The grand total of all the gizmos are:",grand_total
 
