@@ -27,6 +27,5 @@ while True:
     # increase the page
     page += 1
 
-print grand_total
-print "The grand total of all the gizmos are: " + `grand_total`
-print `grand_total`
+print "The grand total of all the gizmos are: ",grand_total
+
