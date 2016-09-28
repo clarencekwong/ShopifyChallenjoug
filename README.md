@@ -1,5 +1,5 @@
 # ShopifyChallenjoug
-Shopify Challenge for WINTERSHIP 2016
+Shopify Challenge for WINTERSHIP 2017
 
 Solution in Python for the total price of clocks and watches on the Shopicruit website of whacky gizmos.
 
